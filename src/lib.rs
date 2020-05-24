@@ -10,3 +10,10 @@ mod sbi;
 mod interrupt;
 mod context;
 mod timer;
+mod consts;
+mod frame_allocator;
+
+
+#![feature(alloc_error_handler)]
+
+extern crate alloc;
